@@ -3,11 +3,8 @@
 ### 1. Напишіть SQL команду, за допомогою якої можна:
 
 вибрати всі стовпчики (За допомогою wildcard “*”) з таблиці products;
-вибрати тільки стовпчики name, phone з таблиці shippers,
-та перевірте правильність її виконання в MySQL Workbench.
 
 ```sql
--- Вибрати всі стовпчики з таблиці products
 SELECT * FROM products;
 ```
 [products_all.csv](products_all.csv)
@@ -16,8 +13,10 @@ SELECT * FROM products;
   <img src="products_all.png" width="300" />
 </a>
 
+вибрати тільки стовпчики name, phone з таблиці shippers,
+та перевірте правильність її виконання в MySQL Workbench.
+
 ```sql
--- Вибрати лише name та phone з таблиці shippers
 SELECT name, phone FROM shippers;
 ```
 [shippiers_name_phone.csv](shippiers_name_phone.csv)
